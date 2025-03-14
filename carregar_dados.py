@@ -15,3 +15,18 @@ print("\nDados de Teste:")
 print(df_teste.head())  # Mostra as 5 primeiras linhas
 
 # python carregar_dados.py
+# import pandas as pd
+
+# Carregar os dados
+#df = pd.read_csv('treino.csv')
+
+# Exibir as primeiras linhas para garantir que os dados foram carregados corretamente
+# print(df.head())
+
+import pandas as pd
+
+# Carregar os dados
+df = pd.read_csv('treino.csv')
+
+# Exibir as primeiras linhas para garantir que os dados foram carregados corretamente
+print(df.head())
